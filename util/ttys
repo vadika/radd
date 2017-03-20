@@ -1,0 +1,20 @@
+#
+# line	NAS address		name
+#
+console	193.124.97.132		unknown
+tty01	193.124.97.132		Async1
+tty02	193.124.97.132		Async2
+tty03	193.124.97.132		Async3
+tty04	193.124.97.132		Async4
+tty05	193.124.97.132		Async5
+tty06	193.124.97.132		Async6
+tty07	193.124.97.132		Async7
+tty08	193.124.97.132		Async8
+tty09	193.124.97.132		Async9
+tty10	193.124.97.132		Async10
+tty11	193.124.97.132		Async11
+tty12	193.124.97.132		Async12
+tty13	193.124.97.132		Async13
+tty14	193.124.97.132		Async14
+tty15	193.124.97.132		Async15
+tty16	193.124.97.132		Async16

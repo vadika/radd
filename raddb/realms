@@ -1,0 +1,26 @@
+#Roam moscow users to moscow 
+@msk.cityline.ru 	RADIUS+	 195.46.160.4 wqeruytuytu
+			FLAGS+ /stat/statserv/var/users
+			ATTRADD+ Service-Type Framed
+			ATTRADD+ Framed-Protocol PPP
+			ADDRESS+ 127.0.0.1 fil AAA
+			ADDRESS+ 127.0.0.1 fil AAA msk.cityline.ru
+			ATTRADD  Framed-MTU	1500
+
+vadik3	PASSWD+ Adfskjhdsfkjh
+			FLAGS+ /stat/statserv/var/users
+			ATTRADD+ Service-Type Framed
+			ATTRADD+ Framed-Protocol PPP
+			ATTRADD+ Framed-IP-Address 212.46.207.253
+			ATTRADD  Framed-MTU     1500
+
+
+DEFAULT		DB+	 /stat/statserv/etc/.passwd.db
+			BOOLDB+ /stat/statserv/etc/.state.db
+			FLAGS+ /stat/statserv/var/users
+			ATTRADD+ Framed-IP-Address 255.255.255.254
+			ATTRADD+ Service-Type Framed
+			ATTRADD+ Framed-Protocol PPP
+			ATTRADD  Framed-MTU	1500
+
+
