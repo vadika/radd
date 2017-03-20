@@ -1,0 +1,38 @@
+
+Особенности реализации
+
+.Файл dictionary
+   позволяет включать в себя куски себя по директиве $INCLUDE
+.Файл realms
+ формат: <realm>  <тип авторизации[+]>  параметры
+	если после типа авторизации стоит '+',
+	то следующая строка содержит дополнительный тип авторизации
+	для этого реалма.
+	Например,
+	@msk.cityline.ru	RADIUS+	123.123.123.123
+						BOOLDB	/usr/local/statserv/.status
+
+.Файл clients
+
+
+.Модули аунтификации
+	mod_
+
+files:
+/var/adm/
+	ttys
+	utmp
+	wtmp
+/usr/local/statserv/var/users
+/usr/local/statserv/etc/
+	.passwd.db
+	.state.db
+
+log(accounting)
+/usr/local/statserv/log/radiuslog
+
+!radd
+local6.*
+/usr/local/statserv/log/radauth
+
+$Id: README,v 1.1 1998/06/27 15:47:28 vadik Exp vadik $
